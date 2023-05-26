@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#E4E6EB;
+}
+header{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
+}
+.header-menu{
+    margin: 0;
+    padding-left: 15px;
+}
+.header-menu .items{
+    display: inline-block;
+}
+.items{
+    padding: 15px;
+    background-color: #F0F0F6;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+}
+.items img{
+    vertical-align: middle;
+}
