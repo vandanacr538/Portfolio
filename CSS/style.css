@@ -2,13 +2,15 @@ body{
     margin: 0;
     padding: 0;
     background-color:#E4E6EB;
+    font-family: 'Inter';
+    font-style: normal;
 }
 header{
     background-color: #fff;
     width: 100%;
     position: fixed;
     top: 0;
-    
+    z-index: 1;
 }
 .header-menu{
     margin: 0;
@@ -30,4 +32,163 @@ header{
 }
 .items img{
     vertical-align: middle;
+}
+.main-container{
+    display: flex;
+    position: relative;
+    top: 63px;
+    justify-content: space-between;
+}
+.side-container{
+    background-color: #fff;
+    width: 19.5%;
+}
+.content-container{
+    background-color: #fff;
+    height: 100vh;
+    width: 80%; 
+} 
+.profile-details{
+    text-align: center;
+}
+.profile-photo{
+    background-color: #E4E6EB;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto 0px auto;  
+}
+.name{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 123.6%;
+    color: #2B2B2B;
+    margin-bottom: 0;
+}
+.personal-details p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #767676;
+    margin-top: 10px;
+}
+.social-media-profiles{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.sm-icon{
+    padding: 2px;
+    background-color: #FFB400; 
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.sm-icon a img{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.divider{
+    margin-top: 20px;
+    width: 80%;
+    border: 1.5px solid #F0F0F6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+.address-details{
+    margin-top: 30px;
+    text-align: left;
+}
+.a-detail{
+    margin: 0 auto;
+    width: 80%; 
+    margin-top: 10px; 
+}
+.info{
+    background-color: #FFB400;
+    width: 35%;
+    padding: 1px;
+    display: inline-block;
+}
+.info-detail{
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+.freelance{
+    color: #7EB942;
+}
+.separator{
+    width: 80%;
+    border: 1.5px solid #F0F0F6;
+    margin-top: 20px;   
+}
+.languages-skills{
+    width: 80%;
+    text-align: left;
+    margin: 25px auto;
+}
+.sidenav-headings{
+    color: #2B2B2B;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 123.6%;
+}
+.l-s-details{
+    display: flex;
+    justify-content: space-between;
+}
+.percentage-bar{
+    margin-top: 6px;
+    border: 1px solid #FFB400;
+    width: 99%;
+    height: 2px;
+    border-radius: 30px;
+    padding: 1px;
+    margin-bottom: 12px;
+}
+.progress{
+    background-color: #FFB400;
+    height: 2px;
+    width: 100%;
+}
+.english, .html{
+    width: 90%;
+}
+.hindi{
+    width: 70%;
+}
+.css{
+    width: 80%;
+}
+.extraskill{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.e-skill-img{
+    vertical-align: middle;
+}
+.e-skill-details{
+    margin-top: 10px;
+}
+.download-CV{
+    background-color: #FFB400;
+    width: 80%;
+    margin: 20px 0px 30px;
+    padding: 8px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    background-image: url("../images/downloadCV.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 170px;
+    cursor: pointer;
 }
