@@ -44,7 +44,6 @@ header{
     width: 19.5%;
 }
 .content-container{
-    background-color: #fff;
     height: 100vh;
     width: 80%; 
 } 
@@ -192,3 +191,191 @@ header{
     background-position-x: 170px;
     cursor: pointer;
 }
+.introduction{
+    width: 95%;
+    height: 467.09px;
+    background-color:#fff;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 80px;
+    padding-left: 60px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+.intro-details{
+    width: 45%;
+}
+.intro-details h1{
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 123.6%;
+}
+.intro-details span{
+    color: #FFB400;
+}
+.intro-details p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+    text-align: justify;
+}
+#hire-button{
+    width: 152px;
+    height: 54px;
+    background-color: #FFB400;
+    border: none;
+    border-radius: 5px;
+    background-image: url("/images/hire-me\ arrow.png");
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+    background-position-y: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.intro-photo img{
+    margin-top: -72px;
+}
+.sub-content-container{
+    width: 95%;
+    margin: 80px auto;
+}
+.sub-content-h2{
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    text-align: center;
+}
+.sub-content-p{
+    color: #767676;
+    width: 438px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+.sub-content-box{
+    width: 100%;
+    height: 632px;
+    background-color: #fff;
+    padding: 47px 29px 38px 37px;
+    box-sizing: border-box;
+}
+.sub-items{
+    height: 150px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.edu-name-certificate{
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+.edu-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #2B2B2B;
+}
+.edu-duration{
+    background-color: #FFB400;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100.9%;
+    width: 111px;
+    height: 18px;
+    margin-left: 30px;
+    padding: 4px 7px;
+}
+.sub-item2{
+    width: 60%;
+}
+.edu-certi-details{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;    
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+    text-align: justify;
+}
+.sub-items-separator{
+    height: 1px;
+    background-color: #F0F0F6;
+    border: none;
+    width: 90%;
+}
+.card-container{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+.card{
+    width: 310px;
+    height: 474px;
+    background-color: #fff;
+    flex-shrink: 0;
+    margin-left: 15px;
+}
+.project-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.p-r-heading{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+.p-r-description{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+}
+.learn-more{
+    color: #FFB400;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    cursor: pointer;
+}
+.learn-more img{
+    margin-left: 5px;
+}
+.arrow-left{
+    font-size: 60px;
+    position: absolute;
+    margin-top: 15%;
+    cursor: pointer;
+}
+.arrow-right{
+    font-size: 60px;
+    position: absolute;
+    right: 30px;
+    margin-top: 15%;
+    cursor: pointer;
+}
+
