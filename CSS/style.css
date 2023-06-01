@@ -33,6 +33,9 @@ header{
 .items img{
     vertical-align: middle;
 }
+.active{
+    background-color: #FFB400;
+}
 .main-container{
     display: flex;
     position: relative;
