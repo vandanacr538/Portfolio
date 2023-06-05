@@ -11,6 +11,7 @@ header{
     position: fixed;
     top: 0;
     z-index: 1;
+    box-shadow: 5px 10px 15px #9c9c9c;
 }
 .header-menu{
     margin: 0;
@@ -447,5 +448,13 @@ header{
     font-size: 15px;
     line-height: 24px;
     color: #767676;
+}
+.footer{
+    height: 100px;
+    background-color: #FFB400;
+    margin-left: -40%;
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
 }
 
